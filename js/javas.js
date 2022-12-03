@@ -248,7 +248,7 @@ function get01(a1) {
     shopCont = shopCont + 1
     var textItem = listaitem[a1][0]
     var priceValor = document.createTextNode(listaitem[a1][1])
-
+    var priceitem = priceValor.toLocaleString('pt-br', { style: 'currency', currency: 'BRL' })
     var text = document.createTextNode(listaitem[a1][0])
 
     var div = document.createElement("div")
@@ -263,7 +263,11 @@ function get01(a1) {
     element.appendChild(div)
     element.appendChild(divPrice)
 
-    document.getElementById("Price-total").innerHTML = 'R$ ' + priceTotal
+    var f = priceTotal.toLocaleString('pt-br', { style: 'currency', currency: 'BRL' });
+
+    var f2 = priceTotal.toLocaleString('pt-br', { minimumFractionDigits: 2 });
+
+    document.getElementById("Price-total").innerHTML =  f
 
 
     iconAcont()
@@ -317,5 +321,18 @@ function iconAcont() {
         const bg = document.querySelector('.cont')
         bg.style.backgroundColor = ''
     }
+}
+var sum = 2 
+function starmenubar(){
+    document.getElementById("shop-get").style.zIndex = "-4"
+    sum= sum +1
+    if((sum % 2)==1){
+        const close = document.querySelector('.menu-section');
+    close.style.display = 'block'
+    }else{
+        const close = document.querySelector('.menu-section');
+    close.style.display = 'none'
+    }
+    
 }
 

@@ -1,4 +1,4 @@
-$PrymaryColor: rgb(36, 36, 36);
+$PrymaryColor: rgb(114, 114, 114);
 $SecundaryColor: rgb(13, 69, 134);
 
 @media (max-width: 600px) {
@@ -108,7 +108,7 @@ $SecundaryColor: rgb(13, 69, 134);
         width: 10px;
     }
     .add{
-        margin-right: 10px;
+        margin-right: 30px;
         color: aliceblue;
     }
     .type-console {
@@ -199,7 +199,7 @@ $SecundaryColor: rgb(13, 69, 134);
     }
     .close-shop{
         position: fixed;
-        top: 40px;
+        top: 80px;
         right: 40px;
     }
     #cont{
@@ -282,6 +282,28 @@ $SecundaryColor: rgb(13, 69, 134);
         padding-right: 50px;
         margin: 40px;
         border-radius: 20px;
+    }
+    .menu-section{
+        display: none;
+        position: fixed;
+        padding-top: 50px;
+        top: 0px;
+        background: rgba(255, 255, 255, 0.89);
+        width: 100%;
+        height: auto;
+    }
+    .ul-section{
+        padding: 0px;
+    }
+    .li-section{
+        text-decoration: none;
+        list-style-type: none;
+        padding: 20px;
+        margin: 2px;
+        color: black;
+    }
+    .li-section:hover{  
+        background: rgb(151, 151, 151);
     }
 }
 @media (min-width: 600px) {
