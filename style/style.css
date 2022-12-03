@@ -295,4 +295,334 @@
   .li-section:hover {
     background: rgb(151, 151, 151);
   }
+}
+@media (min-width: 600px) {
+  * {
+    margin: 0px;
+    padding: 0px;
+  }
+  .header-top {
+    margin: auto;
+    text-align: center;
+    background: white;
+  }
+  .logo-img {
+    margin: auto;
+    width: 40%;
+  }
+  .menu-bar {
+    padding: 0;
+    display: flex;
+  }
+  .mobile-menu {
+    padding: 15px;
+    margin: 0px;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    background: white;
+    z-index: 6;
+    display: flex;
+  }
+  .item-menu {
+    text-align: end;
+    padding-right: 6%;
+  }
+  .img-logo-game {
+    margin-top: 70px;
+    height: 260px;
+    width: 100%;
+  }
+  .form-control {
+    width: 80%;
+  }
+  .bi-search {
+    margin-top: 4px;
+  }
+  #boddy {
+    padding-top: 30px;
+    background: white;
+    z-index: 1;
+  }
+  .slide {
+    width: 70%;
+    margin: auto;
+    margin-top: 100px;
+  }
+  .slide-1 {
+    height: 500px;
+    background-size: cover;
+  }
+  .desc-promotion {
+    border-radius: 5px;
+    background: rgb(114, 114, 114);
+    padding: 7px;
+    position: relative;
+    top: 150px;
+    left: 2%;
+    color: aliceblue;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-size: x-large;
+  }
+  .value-item-promotion {
+    background: rgb(13, 69, 134);
+    position: relative;
+    top: 150px;
+    left: 2%;
+    padding: 10px;
+    color: aliceblue;
+    font-size: x-large;
+    border-radius: 5px;
+  }
+  .text-catalogo {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 30px;
+    text-align: center;
+  }
+  .layout-product {
+    width: auto;
+    margin-top: 40px;
+    text-align: center;
+  }
+  .layout-items {
+    width: 50%;
+    display: flex;
+  }
+  .central {
+    text-align: center;
+  }
+  .layout-items-sm {
+    display: flex;
+    text-align: center;
+    width: auto;
+  }
+  .card-item {
+    padding-bottom: 15px;
+  }
+  .card-item .img {
+    height: 100px;
+    width: 170px;
+    margin-top: 10px;
+  }
+  .product-item {
+    width: 48%;
+    background: rgb(0, 3, 29);
+    border-radius: 5px;
+    margin: 20px;
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+  .product-item img {
+    width: 100%;
+  }
+  .type-name {
+    color: aliceblue;
+    padding-left: 10px;
+  }
+  .console-console img {
+    height: 10px;
+    width: 10px;
+  }
+  .add {
+    margin-right: 30px;
+    color: aliceblue;
+  }
+  .type-console {
+    height: 20px;
+    width: 20px;
+    display: flex;
+  }
+  .console {
+    margin-left: 10px;
+  }
+  .price-item {
+    color: aliceblue;
+    background: rgb(43, 43, 43);
+    margin: 5px;
+    padding: 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    display: inline-block;
+  }
+  .icon-item {
+    margin: auto;
+    background: rgb(13, 69, 134);
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+  }
+  .item-sinopse {
+    margin: 5px;
+  }
+  .fot {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+  }
+  #footer {
+    background: rgb(44, 44, 44);
+    padding: 30px;
+    color: white;
+  }
+  .shop-shop {
+    background: rgba(48, 48, 48, 0.849);
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    display: none;
+  }
+  .shop-item {
+    width: 40%;
+    background: rgb(250, 250, 250);
+    height: auto;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 2%;
+    text-align: center;
+  }
+  .shop-item .sold-item {
+    display: flex;
+  }
+  .img-shop {
+    height: 30%;
+    width: 90%;
+  }
+  .type-name-shop {
+    font-weight: 600;
+    font-size: xx-large;
+    margin-bottom: 30px;
+    padding-top: 30px;
+  }
+  .icon-item-shop {
+    width: 60%;
+  }
+  .type-console-shop {
+    width: auto;
+    height: 50px;
+  }
+  .type-console-shop .console {
+    margin: auto;
+  }
+  .price-item-shop {
+    padding: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
+  }
+  .icon-item-shop {
+    font-size: xx-large;
+    width: 70%;
+  }
+  .close-shop {
+    position: fixed;
+    top: 80px;
+    right: 40px;
+  }
+  #cont {
+    position: absolute;
+    right: 2%;
+    top: 3px;
+    color: rgb(2, 10, 17);
+    font-size: medium;
+    padding: 5px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 40px;
+    color: aliceblue;
+  }
+  #shop-get {
+    z-index: -6;
+  }
+  .shop-get {
+    height: auto;
+    padding-bottom: 100px;
+    width: 100%;
+    height: auto;
+    background: rgb(255, 255, 255);
+    position: absolute;
+    top: 0px;
+    padding-top: 40px;
+  }
+  #item-shop-get {
+    margin: 20px;
+    color: black;
+    width: 30%;
+    margin: auto;
+    border-radius: 20%;
+  }
+  h1 {
+    height: 10px;
+    background: red;
+    margin: 5px;
+  }
+  .name-game-shop {
+    padding-top: 10px;
+    background: rgb(223, 223, 223);
+    padding-left: 40px;
+  }
+  .value-game-shop {
+    padding-right: 40px;
+    background: rgb(223, 223, 223);
+    text-align: end;
+  }
+  .title-shop {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: rgb(13, 69, 134);
+    font-size: larger;
+    margin-top: 25px;
+    text-align: center;
+  }
+  .Line {
+    height: 1px;
+    background: black;
+    width: 80%;
+    margin: auto;
+  }
+  #Price-total {
+    padding: 40px;
+    font-size: x-large;
+    font-weight: 700;
+    text-align: end;
+    padding-right: 200px;
+  }
+  .finish {
+    text-align: center;
+  }
+  .finish-buy {
+    background: rgb(0, 114, 207);
+    padding: 15px;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 40px;
+    border-radius: 20px;
+  }
+  .menu-section {
+    display: none;
+    position: fixed;
+    padding-top: 50px;
+    top: 0px;
+    margin: 40px;
+    margin-top: 10px;
+    background: rgba(255, 255, 255, 0.89);
+    width: 30%;
+    height: auto;
+  }
+  .ul-section {
+    padding: 0px;
+  }
+  .li-section {
+    text-decoration: none;
+    list-style-type: none;
+    padding: 20px;
+    margin: 2px;
+    color: black;
+  }
+  .li-section:hover {
+    background: rgb(151, 151, 151);
+  }
 }/*# sourceMappingURL=style.css.map */

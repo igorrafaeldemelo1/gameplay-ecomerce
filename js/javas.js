@@ -235,14 +235,7 @@ function close20() {
 
 
 
-get01(1)
-get01(6)
-get01(2)
-get01(4)
-get01(1)
-get01(6)
-get01(2)
-get01(4)
+
 function get01(a1) {
     priceTotal = priceTotal + listaitem[a1][1]
     shopCont = shopCont + 1
