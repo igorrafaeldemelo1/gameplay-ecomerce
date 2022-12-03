@@ -235,11 +235,37 @@ function close20() {
 
 
 
-
+get01(1)
+get01(6)
+get01(2)
+get01(4)
+get01(1)
+get01(6)
+get01(2)
+get01(4)
 function get01(a1) {
     priceTotal = priceTotal + listaitem[a1][1]
     shopCont = shopCont + 1
-    console.log(priceTotal)
+    var textItem = listaitem[a1][0]
+    var priceValor = document.createTextNode(listaitem[a1][1])
+
+    var text = document.createTextNode(listaitem[a1][0])
+
+    var div = document.createElement("div")
+    var divPrice = document.createElement("div")
+
+    div.appendChild(text)
+    div.classList.add("name-game-shop")
+    divPrice.appendChild(priceValor)
+    divPrice.classList.add("value-game-shop")
+    var element = document.getElementById("item-shop-get")
+
+    element.appendChild(div)
+    element.appendChild(divPrice)
+
+    document.getElementById("Price-total").innerHTML = 'R$ ' + priceTotal
+
+
     iconAcont()
     close00()
     close01()
@@ -266,14 +292,30 @@ function get01(a1) {
 
 }
 
-function iconAcont(){
+var soma = 1;
+
+function shopstart() {
+    soma = soma + 1
+    if ((soma % 2) == 1) {
+        document.getElementById("shop-get").style.zIndex = "-4"
+    } else {
+        document.getElementById("shop-get").style.zIndex = "4"
+    }
+}
+
+function close20() {
+    let close = document.querySelector('.shop-20')
+    close.style.display = 'none';
+}
+
+function iconAcont() {
     document.getElementById("cont").innerHTML = shopCont
-    if(shopCont > 0){
+    if (shopCont > 0) {
         const bg = document.querySelector('.cont')
-    bg.style.backgroundColor = 'red'
-    }else{
+        bg.style.backgroundColor = 'red'
+    } else {
         const bg = document.querySelector('.cont')
-    bg.style.backgroundColor = ''
+        bg.style.backgroundColor = ''
     }
 }
 

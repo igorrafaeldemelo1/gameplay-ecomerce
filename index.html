@@ -21,46 +21,44 @@
 
 <body>
 
-    <section class="container">
-
+    <section >
+        
         <section id="top">
-            <div class="header-top ">
-                <div>
-                    <div class="mobile-menu row">
-                        <div class="menu-bar col ">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
-                                class="bi bi-list" viewBox="0 0 16 16">
-                                <path fill-rule="evenodd"
-                                    d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
-                            </svg>
-                        </div>
-                        <div class="col-8 ">
-                            <form class="d-flex mt-lg-0" role="search">
-                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
-                                    class="bi bi-search" viewBox="0 0 16 16">
-                                    <path
-                                        d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
-                                </svg>
-                            </form>
-
-                        </div>
-                        <div class="col p-0">
-                            <div class="cont-style">
-                                <div id="cont" class="cont"></div>
-                            </div>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
-                                class="bi p-0 bi-bag" viewBox="0 0 16 16">
-                                <path
-                                    d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
-                            </svg>
-                        </div>
-                    </div>
-
+            <div class="mobile-menu ">
+                <div class="menu-bar col ">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
+                        class="bi bi-list" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                    </svg>
+                </div>
+                <div class="col-8 ">
+                    <form class="d-flex mt-lg-0" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                            class="bi bi-search" viewBox="0 0 16 16">
+                            <path
+                                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                        </svg>
+                    </form>
 
                 </div>
+                <a href="#top"  class="col menu-shop p-0">
+                    <div onclick="shopstart()">
+                        <div class="cont-style">
+                            <div id="cont" class="cont"></div>
+                        </div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                            class="bi p-0 bi-bag" viewBox="0 0 16 16">
+                            <path
+                                d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                        </svg>
+                    </div>
+                </a>
+            </div>
+            <div class="header-top  ">
                 <div class="logo-img">
-                    <img src="img/gameplay.webp" alt="">
+                    <img class="img-logo-game" src="img/gameplay.webp" alt="">
                 </div>
             </div>
         </section>
@@ -781,7 +779,7 @@
                             <img class="console" src="img/steam (1).png" alt="">
                         </div>
                         <div class="sold-item">
-                            <div class="price-item price-item-shop">R$ 2255,99 </div>
+                            <div class="price-item price-item-shop">R$ 255,99 </div>
                             <div onclick="get01(5)" class="icon-item icon-item-shop  ">
                                 <span class="add ">Adicionar</span>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor"
@@ -1343,6 +1341,17 @@
                 </svg>
             </div>
             
+        </div>
+    </section>
+
+    <section id="shop-get" class="shop-get">
+        <div class="title-shop">Shop</div>
+        <div id="item-shop-get"></div>
+        <div class="Line"> </div>
+        <div class="title-shop">Total</div>
+        <div id="Price-total"></div>
+        <div class="finish">
+            <span class="finish-buy">Confirm purchase</span>
         </div>
     </section>
    
